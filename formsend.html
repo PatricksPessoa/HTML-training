@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Forms</title>
+    </head>
+    <body>
+        <form method="GET" action="">
+            <div>
+                <label>Email:</label>
+                <input type="email"/>
+            </div>
+
+            <div>
+                 <label>Senha:</label>
+                 <input type="password"/>
+            </div>
+
+            <div>
+                <label>Nome:</label>
+                <input type="text" placeholder="Ex: Bruno"/>
+            </div>
+
+            <div>
+                <label>Telefone:</label>
+                <input type="text" placeholder="Ex: (99) 99999-9999"/>
+            </div>
+
+            <div>
+                <label>Sexo:</label>
+                <input type="radio" value="masculino" name="sexo" checked/>
+                <label>Masculino</label>
+                <input type="radio" value="feminino" name="sexo"/>
+                <label>Feminino</label>
+            </div>
+
+            <div>
+                <label>Data:</label>
+                <input type="date"/>
+            </div>
+
+            <div>
+                <label>Rua:</label>
+                <input type="text"/>
+            </div>
+
+            <div>
+                <label>Complemento:</label>
+                <input type="text"/>
+            </div>
+
+            <div>
+                <label>Numero:</label>
+                <input type="number" min="1" max="9999"/>
+
+            <div>
+                <label>Cidade:</label>
+                <input type="text"/>
+            </div>
+
+            <div>
+                <label>Estado:</label>
+                <select>
+                    <option value="rio de janeiro">Rio de Janeiro</option>
+                    <option value="sao paulo">São Paulo</option>
+                </select>
+            </div>
+
+            <div>
+                <label>Como conheceu o Hello Pizza?</label>
+                <textarea maxlength="255" placeholder="Explique para a gente como você nos conheceu"></textarea>
+            </div>
+
+            <div>
+                <input type="checkbox" checked/>
+                <label>Desejo receber ofertas por e-mail</label>
+            </div>
+
+            <div>
+                <label>Foto de perfil:</label>
+                <input type="file" accept="image/*"/>
+            </div>
+
+        </form>
+    </body>
+</html>
